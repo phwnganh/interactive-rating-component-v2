@@ -89,3 +89,34 @@
     background-color: var(--color-white);
     color: var(--color-grey-950);
 }
+
+@media (max-width: 576px){
+    .rating-card__icon{
+        width: 40px;
+        height: 40px;
+    }
+
+    .rating-card__title{
+        font-size: var(--text-preset-2);
+        line-height: var(--leading-preset-2);
+    }
+
+    .rating-card__description{
+        font-size: var(--text-preset-5);
+        line-height: var(--leading-preset-5-regular);
+    }
+
+    .rating-card__option{
+        width: 42px;
+        height: 42px;
+        font-size: var(--text-preset-5);
+        line-height: var(--leading-preset-5-bold);
+        letter-spacing: var(--tracking-preset-5-bold);
+    }
+
+    .rating-card__submit{
+        padding: 16px 104px;
+        font-weight: var(--font-preset-5-bold);
+        line-height: var(--leading-preset-5-bold);
+    }
+}

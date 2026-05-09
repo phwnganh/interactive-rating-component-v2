@@ -45,3 +45,20 @@
     font-size: var(--text-preset-4);
     line-height: var(--leading-preset-4-regular);
 }
+
+@media (max-width: 576px) {
+    .thank-you__result{
+        font-size: var(--text-preset-5);
+        line-height: var(--leading-preset-5-regular);
+    }
+
+    .thank-you__title{
+        font-size: var(--text-preset-2);
+        line-height: var(--leading-preset-2);
+    }
+
+    .thank-you__description{
+        font-size: var(--text-preset-5);
+        line-height: var(--leading-preset-5-regular);
+    }
+}
