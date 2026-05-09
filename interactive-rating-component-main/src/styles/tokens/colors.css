@@ -1,0 +1,12 @@
+:root{
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+
+    --color-grey-500: #969FAD;
+    --color-grey-900: #262E38;
+    --color-grey-950: #131518;
+
+    --color-orange-500: #FC7614;
+
+    --color-gradient: linear-gradient(#232A34, #181E27)
+}

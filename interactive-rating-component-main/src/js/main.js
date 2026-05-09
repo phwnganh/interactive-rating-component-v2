@@ -1,0 +1,1 @@
+import '../components/rating-card/rating-card.js'
